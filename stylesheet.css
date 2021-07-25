@@ -1,0 +1,134 @@
+header {
+    background-color:lightseagreen;
+    height:90px;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+.header-logo {
+    font-size:40px;
+    font-style:italic;
+    font-family:Tahoma;
+    float:left;
+    color: floralwhite;
+    padding-top:20px 40px;
+}
+a {
+    padding:8px;
+    display:contents;
+}
+li {
+    padding:33px 20px;
+    float:left;
+    list-style:none;
+    color:rgba(255, 255, 255, 0.959);
+    border-right: gainsboro;
+}
+li a {
+    color: ghostwhite;
+    display:block;
+    text-align: center;
+    text-decoration:none;
+    display:block;
+}
+li:last-child{
+    border-right:none;
+}
+li:hover:not(.active) {
+    background-color: rgb(10, 97, 93);
+    height:20px;
+    padding:35px 25px;
+}
+.active{
+    background-color:rgb(42, 7, 99);
+    height:20px;
+}
+span {
+    color:rgb(42, 7, 99)
+}
+
+.main {
+    padding:100px 80px;
+    background-color: rgb(235, 228, 214);
+}
+
+.copy-container{
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.copy-container h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.contents {
+    height:500px;
+}
+.column{
+    float:left;
+    width:50%;
+}
+.row:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+@media screen and (max-width: 600px) {
+    .column{
+        width:100%;
+    }
+}    
+.section-title {
+    border-bottom:2px solid #dee7ec;
+}
+
+.contents-item {
+    float:left;
+    margin:5px 5px;
+}
+
+.footer {
+height:120px;
+padding:40pxpx;
+background-color:lightseagreen;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.footer-logo {
+    float:left;
+    font-size:24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-list {
+    float:right;
+}
+
+.footer-list li{
+    padding-bottom:20px;
+}
+img {
+    height:200px;
+    width:200px;
+    opacity:0.5;
+}
+img:hover{
+    opacity:1.0;
+}
+input {
+    width:200px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:10px;
+}
+textarea {
+    max-width:300px;
+    max-height:400px;
+}
+.footer-list {
+    list-style:armenian;
+}
+div a{
+    text-decoration:none;
+    color:black
+}
